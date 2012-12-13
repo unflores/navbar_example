@@ -1,0 +1,60 @@
+body{
+  background: #7d8284;
+  margin-top: 20px;
+  font-family: helvetica;
+  -webkit-font-smoothing: antialiased;
+}
+
+#header {
+  height: 48px;
+  width: 934px;
+  background: transparent;
+}
+
+#header .content ul{
+  padding: 0;
+  position: relative;
+}
+
+#header .content ul li{
+  height: 48px;
+  line-height: 48px;
+  display: inline-block;
+}
+
+#header li.stats{ background: url('sprites/navbar_stats.png'); }
+#header li.hover-attention{ background: url('sprites/navbar_alert.png') no-repeat; }
+#header li.veille{ background: url('sprites/navbar_veille.png') no-repeat; }
+#header li.tone{ background: url('sprites/navbar_tone.png'); }
+#header li.spacer{ background: url('sprites/navbar_bkg_repeat_x.png') repeat-x; width:430px; }
+
+#header li.stats:hover{ background: url('sprites/navbar_stats_hover.png'); }
+#header li.veille:hover{ background: url('sprites/navbar_veille_hover.png') no-repeat;}
+#header li.tone:hover{ background: url('sprites/navbar_tone_hover.png'); }
+#header li.hover-attention:hover{ background: url('sprites/navbar_alert_hover.png') no-repeat; }
+
+#header .content ul li.matiere{
+  position: absolute;
+  right: 0;
+  background: url('sprites/navbar_right_corner.png') no-repeat;
+}
+
+#header .content ul li.matiere:hover{
+ background: url('sprites/navbar_right_corner_clicked.png') no-repeat;
+}
+
+#header .content ul li a{
+  padding: 0 14px;
+  line-height: 42px;
+  display: inline-block;
+  color: #333333;
+  text-decoration: none;
+}
+
+#header .content ul li.hover-attention a:hover{
+  text-decoration: underline;
+}
+
+#header .content ul li:hover a{
+  color: #fff;
+}
