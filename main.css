@@ -11,7 +11,7 @@ body{
   width: 934px;
   box-shadow: 2px 2px 7px #666, -2px 1px 7px #666;
 
-  border-radius: 10px;
+  border-radius: 12px;
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 0%, #eaeaea 77%, #cdcccd 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(77%,#eaeaea), color-stop(100%,#cdcccd)); /* Chrome,Safari4+ */
