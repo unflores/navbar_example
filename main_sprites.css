@@ -3,7 +3,7 @@ body{
   margin-top: 20px;
   font-family: helvetica;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #header {
@@ -37,6 +37,8 @@ body{
 #header .content ul li.matiere{
   position: absolute;
   right: 0;
+  min-width: 160px;
+
   background: url('sprites/navbar_right_corner.png') no-repeat;
 }
 
