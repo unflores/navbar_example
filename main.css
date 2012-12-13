@@ -2,10 +2,12 @@ body{
   background: #7d8284;
   margin-top: 20px;
   font-family: helvetica;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
 }
 
 #header {
-  height: 43px;
+  height: 42px;
   width: 934px;
   box-shadow: 2px 2px 7px #666, -2px 1px 7px #666;
 
@@ -25,14 +27,14 @@ body{
 }
 
 #header .content ul li{
-  line-height: 43px;
+  line-height: 42px;
   display: inline-block;
   border-right: #888988 solid 1px;
 }
 
 #header .content ul li a{
-  padding: 0 17px;
-  line-height: 43px;
+  padding: 0 14px;
+  line-height: 42px;
   display: inline-block;
 
   color: #333333;
