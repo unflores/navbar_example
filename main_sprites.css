@@ -34,6 +34,9 @@ body{
 #header li.tone:hover{ background: url('sprites/navbar_tone_hover.png'); }
 #header li.hover-attention:hover{ background: url('sprites/navbar_alert_hover.png') no-repeat; }
 
+#header .content ul li.hover-attention a{
+  padding: 3px 18px;
+}
 #header .content ul li.matiere{
   position: absolute;
   right: 0;
@@ -50,7 +53,7 @@ body{
 }
 
 #header .content ul li a{
-  padding: 0 14px;
+  padding: 0 19px;
   line-height: 42px;
   display: inline-block;
   color: #333333;
